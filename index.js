@@ -1,7 +1,7 @@
 var express=require("express");
 var bodyParser=require('body-parser');
  
-var connection = require('./config');
+var connection = require('./config/db_creds');
 var app = express();
  
 var authenticateController=require('./controllers/authenticate-controller');
